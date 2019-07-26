@@ -1,0 +1,20 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "invoice",
+      "notification",
+      "store"
+    ],
+    "directoryPath": "../",
+    "clusteredDbApps": [],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "NTU5ZTliNmE3YzFmNDA1ODA5NzI3NzRjZTg0NjZmYWUzOWEwMDEwZWQyYTI3OWVjMWU1NGY0ZjU4ZDQ1OWFiMjRhZWQ2ZjQ3Nzc5MWRjOGU0YTFmMmI3YjJmODA3MTM1ZTk0Nw==",
+    "dockerRepositoryName": "gstbimo",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "jhipster",
+    "kubernetesServiceType": "LoadBalancer",
+    "ingressDomain": "",
+    "monitoring": "no",
+    "istio": false
+  }
+}

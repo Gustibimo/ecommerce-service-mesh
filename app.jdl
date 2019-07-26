@@ -44,6 +44,16 @@ application {
   entities Notification
 }
 
+deployment {
+  deploymentType kubernetes
+  appsFolders [store, invoice, notification]
+  serviceDiscoveryType eureka
+  dockerRepositoryName "gstbimo" // use your own docker repo username here
+  kubernetesNamespace jhipster
+  kubernetesServiceType LoadBalancer
+  monitoring no
+}
+
 /* Entities for Store Gateway */
 
 /** Product sold by the Online store */
